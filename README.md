@@ -26,7 +26,7 @@ options:
 ```
 
 ## Examples
-*AD user account names (sAMAccountName) are case sensitive, usually all lowercase.* Machine account names are not, and will be auto-converted to all lowercase. 
+**AD user account names (sAMAccountName) are case sensitive, usually all lowercase.** Machine account names are not, and will be auto-converted to all lowercase. 
 
 Calculate keys for a AD user account:
 ```
