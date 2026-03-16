@@ -25,6 +25,8 @@ options:
                         Iterations to perform for PBKDF2; only used for testing against reference examples
 ```
 
+This depends on pycryptodome. You can use `uv` to run it, or manually configure a venv using the requirements.txt file. 
+
 ## Examples
 **AD user account names (sAMAccountName) are case sensitive, usually all lowercase.** Machine account names are not, and will be auto-converted to all lowercase. 
 
